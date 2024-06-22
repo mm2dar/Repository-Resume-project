@@ -1,0 +1,157 @@
+.programLanMoverOrgParentDiv{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ResoursoryWebAndProject{
+    position: absolute;
+    width: 9%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+    animation-play-state: running;
+    cursor: pointer;
+    text-shadow: 0 0 20px white;
+}
+.FrontResoursoryWebAndProject{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg ,#4d046d 10% ,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),#aa69c5 90%);
+    position: relative;
+    z-index: 15;
+}
+#RWAP1{
+    animation:RWAP1Animation 11s linear infinite 0s;
+}
+#RWAP2{
+    animation:RWAP2Animation 11s linear infinite 1s;
+}
+
+#RWAP3{
+    animation:RWAP3Animation 11s linear infinite 2s;
+}
+
+#RWAP4{
+    animation:RWAP4Animation 11s linear infinite 3s;
+}
+
+#RWAP5{
+    animation:RWAP5Animation 11s linear infinite 4s;
+}
+
+#RWAP6{
+    animation:RWAP6Animation 11s linear infinite 5s;
+}
+
+#RWAP7{
+    animation:RWAP7Animation 11s linear infinite 6s;
+}
+
+#RWAP8{
+    animation:RWAP8Animation 11s linear infinite 7s;
+}
+
+#RWAP9{
+    animation:RWAP9Animation 11s linear infinite 8s;
+}
+
+#RWAP10{
+    animation:RWAP10Animation 11s linear infinite 9s;
+}
+
+#RWAP11{
+    animation:RWAP11Animation 11s linear infinite 10s;
+}
+
+@keyframes RWAP1Animation {
+    0%{
+        margin-left:4.5%;
+    }  
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP2Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP3Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP4Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP5Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP6Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP7Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP8Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP9Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP10Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}
+@keyframes RWAP11Animation {
+    0%{
+        margin-left:4.5%;
+    }
+    100%{
+        margin-left:91%;
+    }
+}

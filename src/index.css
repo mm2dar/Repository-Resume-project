@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family:vazir;
+  src: url(./app/PackSrc/font/Vazir.ttf);
 }
+:root{
+  --color:#ffffff;
+  --colorN:#222222;
+  --background:#fcf7ff;
+  --backgroundN:#2D033B;
+  --colorRGBthemeWeb:#810CA8;
+}
+::-webkit-scrollbar{
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  width: 5px;
+  background-color: #d453ff;
+}
+::-webkit-scrollbar-thumb{
+  width: 5px;
+  background-color: #4d0067;
+}
+*{
+  font-family:vazir;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: var(--colorN);
+ background: rgb(48, 23, 94);
+ background-repeat: no-repeat;
+}
+button{
+  border: none;
+  outline: none;
+  font-family: vazir;
+}
+input{
+  border: none;
+  outline: none;
+  font-family: vazir;
 }

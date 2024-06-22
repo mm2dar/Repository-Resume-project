@@ -1,0 +1,194 @@
+.CourseParentOrgDiv{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: min-content;
+    transition: all 0.5s;
+}
+.DivFilterProductAndCours{
+    height: 50px;
+    width: 1532px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    background-color: #333;
+    box-shadow: 0 0 20px #333;
+}
+.SearchBoxCourse{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+.FilterBoxCourse{
+    width: 20%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.FilterByPriceBoxCours>div , .FilterByDateBoxCours>div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.FilterByPriceBoxCours,.FilterByDateBoxCours{
+    color: white;
+    transition:all 0.5s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.FilterByPriceBoxCours:hover,.FilterByDateBoxCours:hover{
+    color: rgb(255, 75, 255);
+}
+.inputSearchCours{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: 67%;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 30px;
+    box-shadow: 0 0 0 black;
+    border-radius: 10px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.inputSearchCours:focus{
+    border-bottom: 2px solid rgb(251, 0, 255);
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+.CoursMainDivParent , .CoursMainDivParent2{
+    width:1350px;
+    height: min-content;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+
+}
+.CoursMainDivParent2{
+    display: none;
+}
+.CoursesDiv{
+    width: 200px;
+    height: 275px;
+    background:linear-gradient(180deg,rgba(62, 15, 71, 0),rgb(208, 0, 255)150%) ;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 20px 10px;
+    transition: all 0.5s;
+}
+.IconAndImageDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.172);
+    margin: auto;
+    margin-bottom: 15px;
+}
+.titleheader{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.paragrafMainDiv{
+    color: white;
+    font-size: 0.85rem;
+
+}
+.priceMainDiv{
+    font-weight: bold;
+}
+.frontHoverDivTag{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff31;
+    backdrop-filter: blur(5px);
+    position: relative;
+    transition: all 0.5s;
+    padding: 25px;
+    overflow: hidden;
+    margin-top: -268px;
+    margin-left: -25px;
+    border-radius: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.DivFrontChilde{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+.parentCartFront{
+    padding: 10px;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 10;
+    padding: -6px;
+    width: 150px;
+    height: 37.2px;
+    z-index: 14;
+    margin-top: 1px;
+}
+.glowingHoveredDiv{
+    width: 176px;
+    height: 62px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 13;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.GlowingDivFrontHoverd{
+    background:rgb(185, 55, 255);
+    height: 20px;
+    width: 120%;
+    position: relative;
+    overflow: hidden;
+    z-index: 13;
+    animation: marginDivFrontChilde 3s linear infinite ;
+    box-shadow: 0 0 10px rgb(255, 0, 234);
+}
+@keyframes marginDivFrontChilde {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}

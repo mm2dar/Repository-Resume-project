@@ -1,0 +1,117 @@
+.footerElement{
+    width: 100%;
+    background: url(/src//app/PackSrc/image/31641175_c15.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.divFoterEndMain{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.roulsFooterproduct{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.iconListFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 5px;
+}
+.parentUlFooter{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-right: 150px;
+}
+.ListChildLinkRouter{
+    margin: 10px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.divFoterVersionWeb{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.versionWebSiteFooter{
+    margin-left: 20px;
+}
+.imageFooterChiled{
+    width: 300px;
+}
+
+.divFoterEndMainLink>div{
+    margin: 10px 0px ;
+    padding: 5px;
+    background-color: #2222224a;
+    border-radius: 50%;
+    border: purple solid 2px;
+}
+.firstDiv{
+    margin-left: -20px !important;
+}
+.lastDiv{
+    margin-left: 20px !important;
+}
+.divFoterEndMainparagraf{
+    width: 400px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 150px;
+}
+
+.inpInputeDivFooterEmail{
+    width: 90%;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.inpInputeDivFooterEmail:focus{
+    transition: all 0.5s;
+    border-radius: 25px;
+    box-shadow: 0 2px 20px rgb(255, 0, 255);
+}
+.btnInputeDivFooterEmail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #22222200;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 340px;
+}
+.btnInputeDivFooterEmail:hover>svg{
+    transition: all 0.5s;
+    color: rgb(255, 101, 255) !important;
+}

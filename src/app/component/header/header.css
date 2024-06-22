@@ -1,0 +1,213 @@
+.headerorgMain{
+    width: 100%;
+    background-image: url(/src/app/PackSrc/image/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.balls{
+    width: 100%;
+    height: 150px;
+    background:linear-gradient(0deg ,rgba(0, 0, 0, 0) , rgb(208, 0, 255) , rgba(0, 0, 0, 0));
+    position: absolute;
+    z-index: 0;
+    margin-top: -75px;
+}
+.ballsChilds1 , .ballsChilds2 , .ballsChilds3
+,.ballsChilds4 , .ballsChilds5 , .ballsChilds6
+,.ballsChilds7
+{
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+}
+.ballsChilds1{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(208, 0, 255);
+    box-shadow: 0 0 50px rgb(208, 0, 255);
+    top: 300px;
+    left: 1300px;
+
+}
+.ballsChilds2{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(208, 0, 255);
+    box-shadow: 0 0 30px rgb(208, 0, 255);
+    top: 850px;
+    left: 250px;
+}
+.ballsChilds3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(218, 52, 255);
+    box-shadow: 0 0 50px rgb(218, 52, 255);
+    top: 1900px;
+    left: 1500px;
+}
+.ballsChilds4{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(218, 52, 255);
+    top: 5000px;
+    left: 50px;
+}
+.ballsChilds5{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(208, 0, 255);
+    top: 5000px;
+    left: 50px;
+}
+.ballsChilds6{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(208, 0, 255);
+    top: 5000px;
+    left: 50px;
+}
+.ballsChilds7{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(208, 0, 255);
+    top: 5000px;
+    left: 50px;
+}
+.childeHeaderDiv{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    transition: all 0.5s;
+    z-index: 999;
+
+}
+
+.logoWebSite{
+    height: 45px;
+}
+.chilede2Headerdiv1{
+    width: 30%;
+    height: min-content;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.chilede2Headerdiv2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 14px;
+    width: 40%;
+    height: min-content;
+    backdrop-filter: blur(5px);
+}
+.chilede2Headerdiv3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+}
+.btnLoginOrRigester{
+
+    margin: 0 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    background-color:rgb(94, 62, 255);
+    color: white;
+    animation-name: btnLog;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes btnLog {
+    0%{
+        box-shadow: 0 0 20px red;
+        transition: all 0.5s;
+    }
+    25%{
+        box-shadow: 0 0 20px rgb(0, 132, 255);
+        transition: all 0.5s;
+    }
+    50%{
+        box-shadow: 0 0 20px rgb(0, 255, 0);
+        transition: all 0.5s;
+    }
+    75%{
+        box-shadow: 0 0 20px yellow;
+        transition: all 0.5s;
+    }
+    100%{
+        box-shadow: 0 0 20px rgb(255, 0, 255);
+        transition: all 0.5s;
+    }
+}
+.btnLoginOrRigester:hover{
+    border-radius: 15px;
+    background-color:rgb(115, 87, 255);
+    transition: all 0.5s;
+}
+.IconLoginHeaderBar , .IconRegisterHeaderBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+.listUl{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.ChildeUlHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+}
+.ChildeUlHeader:hover{
+    background-color: rgba(255, 255, 255, 0.211);
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+.childeHeaderDiv-active{
+    width: 80%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colorN);
+    position: fixed;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -20px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    box-shadow: 0 0 5px white;
+    z-index: 999;
+}

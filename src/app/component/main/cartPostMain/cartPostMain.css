@@ -1,0 +1,78 @@
+.orgDivCartPostParent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: min-content;
+    padding: 75px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px var(--colorRGBthemeWeb);
+    margin: auto;
+    margin-top: 150px;
+    background-color: #62626263;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+.ContainerText{
+    width: 75%;
+}
+.titleHeaderCart{
+    font-weight: bold;
+    margin:30px 0 ;
+
+    text-align: center;
+    text-shadow: 0 0 10px purple;
+}
+.paragrafHeaderCart{
+    font-weight: 100;
+    margin:30px 0 ;
+
+    text-align: justify;
+    justify-content: space-around;
+}
+.textParagrafCart{
+    font-weight: bolder;
+    margin:30px 0 ;
+    margin-left: 20px;
+}
+.btnCartParent{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    margin-bottom: 20px;
+
+}
+.btnMoreAndRegister{
+    border: none;
+    outline: none;
+    width: 150px;
+    padding: 10px;
+    margin: 0 20px;
+    background-color: rgb(115, 87, 255);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+.ContainerImage{
+    width: 40%;
+}
+.CubeControler{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+#id1{
+    flex-direction: row-reverse;
+}
+#id2{
+    flex-direction:row;
+}

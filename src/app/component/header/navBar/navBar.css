@@ -1,0 +1,80 @@
+.OrgnavBarParent{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    background-color: var(--colorN);
+    
+}
+.navChild1 ,.navChild2 ,.navChild3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+}
+.navChild1 {
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 10px;
+}
+.iconNavBarMpa{
+
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    color: rgb(255, 255, 255);
+}
+.iconNavBarMpa:hover{
+    transition: all 0.5s;
+    color: rgb(167, 0, 167);
+    background-color: rgb(21, 21, 21);
+}
+.navChild3{
+    color: var(--colorRGBthemeWeb);
+    align-items: end;
+}
+.paragrafLink{
+    color: white;
+    font-weight: bold;
+}
+.emailNavbar {
+    color: rgb(177, 60, 177);
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 0 2px var(--colorRGBthemeWeb);
+    margin-right: 14px;
+}
+.iconNavBarMpa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 7px;
+}
+.spanNavBar{
+    color: #b13cb1;
+text-decoration: underline;
+}
+@media screen and (max-width:1000px){
+    .navChild3{
+        display: none;
+        width: 0px;
+    }
+    .navChild1{
+        display: none;
+        width: 0px;
+    }
+    .navChild2{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .OrgnavBarParent{
+        display: none;
+    }
+}
