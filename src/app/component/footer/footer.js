@@ -35,7 +35,7 @@ export default function footer() {
         </div>
         <div className='divFoterVersionWeb'>
             <div className='roulsFooterproduct'>All absolute information to(mmd 2dar)<div className='iconListFooter'><FaRegCopyright color='white' size={15}></FaRegCopyright></div></div>
-            <div className='versionWebSiteFooter'>v1.0</div>
+            <div className='versionWebSiteFooter'>v1.1</div>
         </div>
     </div>
   )
