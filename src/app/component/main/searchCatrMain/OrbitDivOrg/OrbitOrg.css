@@ -53,21 +53,21 @@
     z-index: 10;
 }
 .react{
-    width: 700px;
-    height: 700px;
+    width: 635px;
+    height: 635px;
     animation: orbite 40s linear infinite;
     border-width:0.1em 0.1em 0  !important;
 }
 .vue{
-    width: 700px;
-    height: 700px;
+    width: 635px;
+    height: 635px;
     animation: orbite 40s linear infinite;
     border-width:0.1em 0.1em 0  !important;
     rotate: -120deg;
 }
 .angular{
-    width: 700px;
-    height: 700px;
+    width: 635px;
+    height: 635px;
     animation: orbite 40s linear infinite;
     border-width:0.1em 0.1em 0  !important;
     rotate: 120deg;
@@ -181,7 +181,7 @@
         transform: rotate(-360deg);
     }
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1435px) {
 .textSunContaner {
     width: 50px !important;
     height: 50px !important;

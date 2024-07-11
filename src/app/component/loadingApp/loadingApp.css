@@ -1,0 +1,81 @@
+.loadingProInformation{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(255, 137, 253);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+}
+.animationloadingEffect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.divLoading{
+    width: 15px;
+    background-color: rgb(140, 0, 255);
+    border-radius: 12px;
+    height: 10%;
+
+}
+
+.divLoadingCss1{
+    animation: animationdivLoading  2s infinite;
+    animation-delay: 0.5s;
+}
+.divLoadingCss2{
+    animation: animationdivLoading  2s infinite ;
+    animation-delay: 1s;
+}
+.divLoadingCss3{
+    animation: animationdivLoading  2s infinite ;
+    animation-delay: 1.5s;
+}
+.divLoadingCss4{
+    animation: animationdivLoading  2s infinite ;
+    animation-delay: 2s;
+}
+.divLoadingCss5{
+    animation: animationdivLoading  2s infinite ;
+    animation-delay: 2.5s;
+}
+.divLoadingCss6{
+    animation: animationdivLoading  2s infinite ;
+    animation-delay: 3s;
+}
+.divLoadingCss7{
+    animation: animationdivLoading  2s infinite ;
+    animation-delay: 3.5s;
+}
+.divLoadingCss8{
+    animation: animationdivLoading  2s infinite ;
+    animation-delay: 4s;
+}
+.divLoadingCss9{
+    animation: animationdivLoading  2s infinite ;
+    animation-delay: 4.5s;
+}
+.divLoadingCss10{
+    animation: animationdivLoading  2s infinite ;
+    animation-delay: 5s;
+}
+
+@keyframes animationdivLoading {
+    0%{
+        height: 10%;
+    }
+    50%{
+        height: 40%;
+    }
+    100%{
+        height:10%;
+
+    }
+}

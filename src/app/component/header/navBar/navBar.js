@@ -19,7 +19,9 @@ export default function navBar() {
       doc.classList.remove('AlertBoxForCopyClicked')
     }, 2000);
   }
-
+  const handleRedirect = () => {
+    window.location.href = 'mailto:mirzaiemohammad594@gmail.com';
+  };
 
   return (
     <div className='OrgnavBarParent'>
@@ -30,7 +32,7 @@ export default function navBar() {
               <a href="https://github.com/mm2dar/Repository-Resume-project.git" className="routerMPA">
                 <div className="iconNavBarMpa"><FiGithub size={17}/></div>
               </a>
-              <div href="" onClick={(e)=>navigatorCopyText(e)} className="routerMPA">
+              <div href="" onClick={(e)=>navigatorCopyText(e)} className="routerMPA copyrouterMPAGit">
                 <div className="iconNavBarMpa"><SiWhatsapp size={17}/></div>
                 <div className='AlertBoxForCopy'><div className='IconeryByClassAlert'><IoCaretUp></IoCaretUp></div>The number was Copied <IoCheckmarkDoneSharp color='green' size={20}></IoCheckmarkDoneSharp></div>
               </div>
@@ -39,7 +41,7 @@ export default function navBar() {
               <p className='paragrafLink'>Click on the link to get the <a className='spanNavBar'>discount code</a></p>
           </div>
           <div className="navChild3">
-              <p className='emailNavbar'>mirzaiemohammad594@gmail.com</p>
+              <p className='emailNavbar' val='+989398896930' onClick={(e)=>{handleRedirect(e)}}>mirzaiemohammad594@gmail.com</p>
 
 
                 </div>

@@ -6,8 +6,19 @@ import { FaGithub } from "react-icons/fa";
 import { SiTelegram } from "react-icons/si";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { IoSend } from "react-icons/io5";
-
+import { IoCaretUp } from "react-icons/io5";
+import { IoCheckmarkDoneSharp } from "react-icons/io5";
 export default function footer() {
+    let navigatorCopyText = event =>{
+        event.preventDefault()
+        navigator.clipboard.writeText(`+989398896930`)
+        let doc = document.querySelector('.AlertBoxForCopy')
+        doc.classList.add('AlertBoxForCopyFooterClicked')
+        setTimeout(() => {
+          doc.classList.remove('AlertBoxForCopyFooterClicked')
+        }, 2000);
+      }
+
   return (
     <div className='footerElement'>
         <ProgramLanMover></ProgramLanMover>
@@ -20,9 +31,9 @@ export default function footer() {
                 </div>
             </div>
             <div className="divFoterEndMainLink">
-                <div className="iconListFooter firstDiv"><FaGithub size={30} color='white'></FaGithub></div>
-                <div className="iconListFooter"><SiTelegram size={30} color='white'></SiTelegram></div>
-                <div className="iconListFooter lastDiv"><IoLogoWhatsapp size={30} color='white'></IoLogoWhatsapp></div>
+                <div className="iconListFooter firstDiv"><a href="https://github.com/mm2dar/Repository-Resume-project.git"><FaGithub size={30} color='white'></FaGithub></a></div>
+                <div className="iconListFooter"><a href="https://t.me/oghostoM"><SiTelegram size={30} color='white'></SiTelegram></a></div>
+                <div className="iconListFooter lastDiv" style={{cursor:'copy'}} onClick={(e)=>{navigatorCopyText(e)}}><IoLogoWhatsapp size={30} color='white'></IoLogoWhatsapp></div>
             </div>
             <div className='divFoterEndMainListText'>
                 <ul className='parentUlFooter'>

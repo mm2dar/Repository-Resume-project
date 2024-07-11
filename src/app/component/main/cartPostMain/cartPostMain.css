@@ -142,7 +142,7 @@
         font-size: 0.8rem;
     }
 }
-@media screen and (max-width:1000px){
+@media (min-width:840px) and (max-width:1000px){
     .orgDivCartPostParent{
         margin-top: 500px;
     }

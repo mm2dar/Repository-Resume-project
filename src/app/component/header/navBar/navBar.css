@@ -16,18 +16,26 @@
     align-items: center;
     width: 33.33%;
 }
+.paragrafLink{
+    cursor:context-menu;
+}
+.spanNavBar{
+    cursor:pointer;
+}
 .navChild1 {
     flex-direction: row;
     justify-content: start;
     margin-left: 10px;
 }
 .iconNavBarMpa{
-
     width: 23px;
     height: 23px;
     border-radius: 50%;
     margin-bottom: 2px;
     color: rgb(255, 255, 255);
+}
+.copyrouterMPAGit{
+    cursor: copy;
 }
 .iconNavBarMpa:hover{
     transition: all 0.5s;
@@ -48,6 +56,7 @@
     font-weight: bold;
     text-shadow: 0 0 2px var(--colorRGBthemeWeb);
     margin-right: 14px;
+    cursor: pointer;
 }
 .iconNavBarMpa{
     display: flex;
