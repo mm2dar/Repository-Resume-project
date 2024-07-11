@@ -157,7 +157,10 @@
 
 }
 @media (min-width:670px) and (max-width:799px) {
-
+    .inpInputeDivFooterEmail{
+        padding: 8px;
+        margin-top: 10px;
+    }
     .ResoursoryWebAndProject{
         font-size: 0.6rem;
     }
@@ -195,6 +198,10 @@
     }
 }
 @media screen and (max-width:669px) {
+    .inpInputeDivFooterEmail{
+        padding: 8px;
+        margin-top: 5px;
+    }
     .ResoursoryWebAndProject{
         font-size: 0.45rem;
     }
