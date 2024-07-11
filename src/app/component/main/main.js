@@ -1,6 +1,6 @@
 import React from 'react'
 import './main.css'
-import SearchModernCart from "./searchCatrMain/searchCartMain";
+import SearchModernCart from "./searchCatrMain/searchCartMain.js";
 import CartPostMain from "./cartPostMain/cartPostMain";
 import ProgramerGraph from "./theWay/theWay.js";
 import Cours from "./Cours/cours.js";
@@ -87,7 +87,7 @@ export default function main() {
           )
         }
         <ProgramerGraph></ProgramerGraph>
-        <Cours></Cours>
+        {/* <Cours></Cours> */}
     </div>
   )
 }

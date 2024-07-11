@@ -71,6 +71,7 @@ export default function Cours() {
             let filterProduct = ArrayValueCartCourse.filter((i) => {
                 if (i.title === InputeSearch) {
                     const docOn = document.getElementById(i.id);
+                    
                     console.log(docOn);
                     return i
                 }

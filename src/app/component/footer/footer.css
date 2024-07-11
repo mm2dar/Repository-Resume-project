@@ -1,14 +1,16 @@
 .footerElement{
     width: 100%;
-    background: url(/src//app/PackSrc/image/31641175_c15.jpg);
+    background: url(/src//app/PackSrc/image/wallpaperflare.com_wallpaper\ \(2\).jpg);
     height: 500px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-top: 200px;
+    margin-bottom: -1px;
 }
 .divFoterEndMain{
     width: 100%;
@@ -85,10 +87,12 @@
     font-weight: bold;
     font-size: 1.2rem;
     margin-left: 150px;
+    text-align: justify;
+    justify-content:auto;
 }
 
 .inpInputeDivFooterEmail{
-    width: 90%;
+    width:90%;
     padding: 10px;
     padding-left: 20px;
     font-size: 1.1rem;
@@ -114,4 +118,146 @@
 .btnInputeDivFooterEmail:hover>svg{
     transition: all 0.5s;
     color: rgb(255, 101, 255) !important;
+}
+@media (min-width:1200px) and (max-width:1500px) {
+    .ResoursoryWebAndProject{
+        font-size: 0.9rem;
+    }
+    .divFoterEndMainparagraf{
+        font-size: 1.1rem;
+    }
+}
+@media (min-width:980px) and (max-width:1199px) {
+    .ResoursoryWebAndProject{
+        font-size: 0.8rem;
+    }
+    .divFoterEndMainparagraf{
+        font-size: 1rem;
+    }
+    .divFoterEndMainparagraf{
+        margin-left: 100px;
+    }
+    .parentUlFooter{
+        margin-right: 100px;
+    }
+}
+@media (min-width:800px) and (max-width:979px) {
+    .ResoursoryWebAndProject{
+        font-size: 0.7rem;
+    }
+    .divFoterEndMainparagraf{
+        font-size: 0.9rem;
+    }
+    .divFoterEndMainparagraf{
+        margin-left: 80px;
+    }
+    .parentUlFooter{
+        margin-right: 80px;
+    }
+
+}
+@media (min-width:670px) and (max-width:799px) {
+    .ResoursoryWebAndProject{
+        font-size: 0.6rem;
+    }
+    .roulsFooterproduct{
+        font-size: 0.7rem;
+    }
+    .divFoterEndMainparagraf{
+        font-size: 0.8rem;
+    }
+    .divFoterEndMainparagraf{
+        margin-left: 25px;
+    }
+    .parentUlFooter{
+        margin-right: 25px;
+    }
+    .divFoterEndMain{
+        flex-direction: column;
+    }
+    .parentUlFooter{
+        flex-direction: row;
+    }
+    .ListChildLinkRouter{
+        margin: 0 20px;
+        margin-top: 30px;
+        font-size: 0.8rem;
+        margin-bottom: 30px;
+    }
+    .divFoterEndMainLink{
+        margin-top: 30px;
+    }
+    .divFoterEndMainparagraf{
+        font-size: 0.7rem;
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:669px) {
+    .ResoursoryWebAndProject{
+        font-size: 0.45rem;
+    }
+    .roulsFooterproduct{
+        font-size: 0.7rem;
+    }
+    .divFoterEndMainparagraf{
+        font-size: 0.7rem;
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+    .parentUlFooter{
+        margin:auto;
+    }
+    .divFoterEndMain{
+        flex-direction: column;
+
+    }
+    .parentUlFooter{
+        flex-direction: row;
+    }
+    .ListChildLinkRouter{
+        margin: 0 15px;
+        margin-top: 30px;
+        font-size: 0.7rem;
+        margin-bottom: 30px;
+    }
+    .divFoterEndMainLink{
+        margin-top: 30px;
+    }
+    .programLanMoverOrgParentDiv{
+        display: none;
+    }
+}
+@media screen and (max-width:480px) {
+    .programLanMoverOrgParentDiv{
+        display: none;
+    }
+    .btnInputeDivFooterEmail{
+        margin-top: -28px !important;
+        margin-left: 53% !important;
+    }
+    .roulsFooterproduct{
+        font-size: 0.5rem;
+    }
+    .ListChildLinkRouter{
+        margin: 0 8px;
+        margin-top: 20px;
+        font-size: 0.6rem;
+        margin-bottom: 20px;
+    }
+    .divFoterEndMainparagraf{
+        width: 60%;
+    }
+    .divFoterEndMainparagraf{
+        font-size: 0.7rem;
+        margin-left: 25px;
+        margin-top: 40px;
+    }
+    .inpInputeDivFooterEmail{
+        height: 10px;
+        font-size: 0.9rem;
+    }
+    .parentUlFooter{
+        margin:auto;
+    }
 }

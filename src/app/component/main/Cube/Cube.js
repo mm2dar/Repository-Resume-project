@@ -14,7 +14,6 @@ export default function main(props) {
   return (
 <>
 <div class="cube">
-
     <div class="face front">{props.stage1}</div>
     <div class="face back">{props.stage2}</div>
     <div class="face left">{props.stage3}</div>

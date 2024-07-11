@@ -192,3 +192,8 @@
         rotate: 360deg;
     }
 }
+@media (min-width:1000px) and (max-width:1550px) {
+    .DivFilterProductAndCours{
+        width: 1300px;
+    }
+}

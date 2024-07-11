@@ -27,6 +27,7 @@ body{
   background-color: var(--colorN);
  background: rgb(48, 23, 94);
  background-repeat: no-repeat;
+ overflow-x: hidden;
 }
 button{
   border: none;
@@ -37,4 +38,8 @@ input{
   border: none;
   outline: none;
   font-family: vazir;
+}
+a{
+  text-decoration: none;
+  color: #d453ff;
 }

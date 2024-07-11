@@ -1,8 +1,9 @@
 .headerorgMain{
     width: 100%;
     background-image: url(/src/app/PackSrc/image/wallpaperflare.com_wallpaper\ \(1\).jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
 }
 .balls{
@@ -17,8 +18,7 @@
 ,.ballsChilds4 , .ballsChilds5 , .ballsChilds6
 ,.ballsChilds7
 {
-    position: absolute;
-    z-index: -1;
+    position: relative;
     border-radius: 50%;
 }
 .ballsChilds1{
@@ -28,7 +28,10 @@
     box-shadow: 0 0 50px rgb(208, 0, 255);
     top: 300px;
     left: 1300px;
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .ballsChilds2{
     width: 350px;
@@ -37,6 +40,10 @@
     box-shadow: 0 0 30px rgb(208, 0, 255);
     top: 850px;
     left: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .ballsChilds3{
     width: 400px;
@@ -45,34 +52,10 @@
     box-shadow: 0 0 50px rgb(218, 52, 255);
     top: 1900px;
     left: 1500px;
-}
-.ballsChilds4{
-    width: 500px;
-    height: 500px;
-    background-color: rgb(218, 52, 255);
-    top: 5000px;
-    left: 50px;
-}
-.ballsChilds5{
-    width: 500px;
-    height: 500px;
-    background-color: rgb(208, 0, 255);
-    top: 5000px;
-    left: 50px;
-}
-.ballsChilds6{
-    width: 500px;
-    height: 500px;
-    background-color: rgb(208, 0, 255);
-    top: 5000px;
-    left: 50px;
-}
-.ballsChilds7{
-    width: 500px;
-    height: 500px;
-    background-color: rgb(208, 0, 255);
-    top: 5000px;
-    left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .childeHeaderDiv{
     width: 100%;
@@ -82,18 +65,18 @@
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(5px);
+    background-color: #ffffff3d;
     transition: all 0.5s;
     z-index: 999;
-
 }
-
 .logoWebSite{
     height: 45px;
+    margin-left: 10px;
 }
 .chilede2Headerdiv1{
     width: 30%;
     height: min-content;
-    backdrop-filter: blur(5px);
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -107,7 +90,6 @@
     margin-right: 14px;
     width: 40%;
     height: min-content;
-    backdrop-filter: blur(5px);
 }
 .chilede2Headerdiv3{
     display: flex;
@@ -128,45 +110,23 @@
     flex-direction: row;
     align-items: center;
     justify-content:center;
-    background-color:rgb(94, 62, 255);
+    background-color:rgba(94, 62, 255, 0);
     color: white;
-    animation-name: btnLog;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes btnLog {
-    0%{
-        box-shadow: 0 0 20px red;
-        transition: all 0.5s;
-    }
-    25%{
-        box-shadow: 0 0 20px rgb(0, 132, 255);
-        transition: all 0.5s;
-    }
-    50%{
-        box-shadow: 0 0 20px rgb(0, 255, 0);
-        transition: all 0.5s;
-    }
-    75%{
-        box-shadow: 0 0 20px yellow;
-        transition: all 0.5s;
-    }
-    100%{
-        box-shadow: 0 0 20px rgb(255, 0, 255);
-        transition: all 0.5s;
-    }
 }
 .btnLoginOrRigester:hover{
     border-radius: 15px;
     background-color:rgb(115, 87, 255);
     transition: all 0.5s;
 }
-.IconLoginHeaderBar , .IconRegisterHeaderBar{
+.IconLoginHeaderBar , .IconRegisterHeaderBarHamber{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 5px;
+}
+.IconRegisterHeaderBarHamber{
+    display: none;
+    margin-right: 15px;
 }
 .listUl{
     width: 100%;
@@ -188,6 +148,7 @@
     width: 150px;
     height: 35px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .ChildeUlHeader:hover{
     background-color: rgba(255, 255, 255, 0.211);
@@ -210,4 +171,197 @@
     transition: all 0.5s;
     box-shadow: 0 0 5px white;
     z-index: 999;
+}
+
+.ballsChilds1Childe{
+    border:solid 5px rgb(208, 0, 255);  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute !important;
+    transition: all 0.5s;
+    z-index:-1 !important;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.ballsChilds1Childe1{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 0s;
+}
+.ballsChilds1Childe2{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 0.5s;
+}
+.ballsChilds1Childe3{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 1s;
+}
+
+
+@keyframes scroolCircle {
+    0%{
+        width: 0px;
+        height: 0px;
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+        width: 150%;
+        height: 150%;
+    }
+}
+@media (min-width:980px) and (max-width:1500px) {
+
+    .ChildeUlHeader{
+        font-size:1rem;
+    }
+    .btnLoginOrRigester{
+        font-weight: bold;
+        font-size:1rem;
+    }
+}
+@media (min-width:980px) and (max-width:1200px) {
+    .chilede2Headerdiv1{
+        width: 25%;
+    }
+    .ChildeUlHeader{
+        font-size:0.9rem;
+    }
+    .btnLoginOrRigester{
+        font-weight: bold;
+        font-size:0.9rem;
+        margin: 0 5px;
+    }
+    .logoWebSite{
+        height:32px;
+    }
+    .btnLoginOrRigester{
+        width: 90px;
+    }
+    .chilede2Headerdiv3{
+        width: 26%;
+    }
+    .chilede2Headerdiv2{
+        width: 44%;
+    }
+}
+@media (min-width:500px) and (max-width:979px) {
+    .chilede2Headerdiv1{
+        width: 25%;
+    }
+    .ChildeUlHeader{
+        font-size:0.9rem;
+    }
+    .btnLoginOrRigester{
+        font-weight: bold;
+        font-size:0.9rem;
+        margin: 0 5px;
+    }
+    .IconRegisterHeaderBarHamber{
+        display: flex;
+        margin-left: 15px;
+    }
+    .logoWebSite{
+        height:25px;
+    }
+    .btnLoginOrRigester{
+        width: 90px;
+        margin: 0 11px;
+        font-size:0.8rem;
+    }
+    .chilede2Headerdiv3{
+        width: 16%;
+    }
+    .chilede2Headerdiv2{
+        width: 40%;
+    }
+    .listUl>li{
+        display: none;
+    }
+    .listUl{
+        justify-content: flex-end;
+    }
+}
+@media (min-width:500px) and (max-width:900px) {
+    .chilede2Headerdiv2{
+        width: 30%;
+    }
+    .chilede2Headerdiv1{
+        width: 35%;
+    }
+    .btnLoginOrRigester:first-child{
+        width: 120px;
+    }
+    .chilede2Headerdiv3{
+        width: 20%;
+    }
+    .chilede2Headerdiv3{
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width:499px) {
+    .chilede2Headerdiv2{
+        width: 30%;
+    }
+    .chilede2Headerdiv1{
+        width: 35%;
+    }
+    .btnLoginOrRigester:first-child{
+        width: 120px;
+    }
+    .chilede2Headerdiv3{
+        width: 20%;
+    }
+    .chilede2Headerdiv3{
+        justify-content: flex-end;
+    }
+    .chilede2Headerdiv1{
+        justify-content: flex-start;
+    }
+    .chilede2Headerdiv1{
+        width: 25%;
+    }
+    .ChildeUlHeader{
+        font-size:0.9rem;
+    }
+    .btnLoginOrRigester{
+        display: none;
+    }
+    .IconRegisterHeaderBarHamber{
+        display: flex;
+        font-size: 0.8rem;
+    }
+    .logoWebSite{
+        height:23px;
+    }
+    .btnLoginOrRigester{
+        width: 90px;
+        margin: 0 15px;
+    }
+    .chilede2Headerdiv1{
+        width: 80%;
+    }
+    .chilede2Headerdiv3{
+        width: 20%;
+    }
+    .chilede2Headerdiv2{
+        width: none;
+    }
+    .listUl>li{
+        display: none;
+    }
+    .chilede2Headerdiv1{
+        margin-left:10px;
+    }
+    .chilede2Headerdiv3{
+        margin-right: 10px;
+    }
 }

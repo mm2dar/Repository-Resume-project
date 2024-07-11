@@ -34,7 +34,7 @@ export default function footer() {
             </div>
         </div>
         <div className='divFoterVersionWeb'>
-            <div className='roulsFooterproduct'>All content produced on this website belongs to Fred (mmd 2dar) and any copying is against the law <div className='iconListFooter'><FaRegCopyright color='white' size={15}></FaRegCopyright></div></div>
+            <div className='roulsFooterproduct'>All absolute information to(mmd 2dar)<div className='iconListFooter'><FaRegCopyright color='white' size={15}></FaRegCopyright></div></div>
             <div className='versionWebSiteFooter'>v1.0</div>
         </div>
     </div>

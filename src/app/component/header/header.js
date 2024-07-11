@@ -2,12 +2,14 @@ import React from 'react'
 import "./header.css";
 import NavBar from "./navBar/navBar";
 import LineBar from "./navBar/navBarTop/navBarTop";
+import CircleAround from "./circleAround/circleAround";
 import { IoIosLogIn } from "react-icons/io";
 import { FiUserPlus } from "react-icons/fi";
 import { AiOutlineProduct } from "react-icons/ai";
 import { IoCallOutline } from "react-icons/io5";
 import { TiHomeOutline } from "react-icons/ti";
 import { LiaUsersSolid } from "react-icons/lia";
+import { FiList } from "react-icons/fi";
 
 export default function header() {
 
@@ -24,6 +26,7 @@ export default function header() {
         Header.classList.add('childeHeaderDiv')
       }
     })
+    
 
 
   return (
@@ -40,20 +43,29 @@ export default function header() {
                     <li className="ChildeUlHeader"><div className='IconRegisterHeaderBar'><TiHomeOutline></TiHomeOutline></div>Home</li>
                     <li className="ChildeUlHeader"><div className='IconRegisterHeaderBar'><AiOutlineProduct></AiOutlineProduct></div>Learning</li>
                     <li className="ChildeUlHeader"><div className='IconRegisterHeaderBar'><LiaUsersSolid></LiaUsersSolid></div>About</li>
-                    <li className="ChildeUlHeader"><div className='IconRegisterHeaderBar'><IoCallOutline></IoCallOutline></div>contact us</li>
+                    <li className="ChildeUlHeader"><div className='IconRegisterHeaderBar'><IoCallOutline></IoCallOutline></div>connections</li>
                   </ul>
               </div>
+              
               <div className="chilede2Headerdiv3">
                 <button className="btnLoginOrRigester"><div className='IconRegisterHeaderBar'><IoIosLogIn></IoIosLogIn></div>Login</button>
                 <button className="btnLoginOrRigester"><div className='IconRegisterHeaderBar'><FiUserPlus></FiUserPlus></div>Register</button>
+                <li className='IconRegisterHeaderBarHamber'><FiList size={30} color='white'></FiList></li>
               </div>
           </div>
     </header>
-    <div className='balls'>
-        <div className="ballsChilds1"></div>
-        <div className="ballsChilds2"></div>
-        <div className="ballsChilds3"></div>
-    </div>
+    {/* <div className='balls'>
+        <div className="ballsChilds1">
+            <CircleAround></CircleAround>
+        </div>
+        
+        <div className="ballsChilds2">
+            <CircleAround></CircleAround>
+        </div>
+        <div className="ballsChilds3">
+            <CircleAround></CircleAround>
+        </div>
+    </div> */}
 </>
   )
 }

@@ -15,12 +15,15 @@
     font-weight: bolder;
     animation-play-state: running;
     cursor: pointer;
-    text-shadow: 0 0 20px white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .FrontResoursoryWebAndProject{
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg ,#4d046d 10% ,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),#aa69c5 90%);
+    background: linear-gradient(90deg ,#221a3e 10% ,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),#221a3e 90%);
     position: relative;
     z-index: 15;
 }
@@ -153,5 +156,10 @@
     }
     100%{
         margin-left:91%;
+    }
+}
+@media screen and (max-width:440px) {
+    .programLanMoverOrgParentDiv{
+        display: none !important;
     }
 }

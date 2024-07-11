@@ -1,0 +1,334 @@
+.OrbitOrgDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.OrbitOrgDiv>div>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: min-content;
+    width: min-content;
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+        margin-left: 80%;
+        margin-top: 8%;
+}
+.OrbitOrgDiv>div>div>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.OrbitOrgDiv>div{
+    position: absolute;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255) transparent transparent transparent;
+    border-width:0.1em 0.1em 0 0;
+
+}
+.textSunContaner {
+    margin: 0px !important;
+    color: white;
+    background-color: purple !important;
+    width: 100px !important;
+    height: 100px !important;
+    font-size: 1.3rem;
+}
+.JS{
+    width: 400px;
+    height: 400px;
+    animation: orbite 16s linear infinite;
+    z-index: 10;
+}
+.react{
+    width: 700px;
+    height: 700px;
+    animation: orbite 40s linear infinite;
+    border-width:0.1em 0.1em 0  !important;
+}
+.vue{
+    width: 700px;
+    height: 700px;
+    animation: orbite 40s linear infinite;
+    border-width:0.1em 0.1em 0  !important;
+    rotate: -120deg;
+}
+.angular{
+    width: 700px;
+    height: 700px;
+    animation: orbite 40s linear infinite;
+    border-width:0.1em 0.1em 0  !important;
+    rotate: 120deg;
+}
+.Html5{
+    width: 200px;
+    height: 200px;
+    z-index: 12;
+    animation: orbite 10s linear infinite;
+}
+.Css3{
+    width: 300px;
+    height: 300px;
+    animation: orbite 13s linear infinite;
+    z-index: 11;
+}
+.Github{
+    width: 500px;
+    height: 500px;
+    animation: orbite 25s linear infinite;
+    z-index: 9;
+    border-width:0.1em 0.1em 0  !important;
+    rotate: -120deg;
+}
+.Bootstrap{
+    width: 500px;
+    height: 500px;
+    animation: orbite 25s linear infinite;
+    z-index: 9;
+    border-width:0.1em 0.1em 0  !important;
+    rotate: 120deg;
+}
+.TailwindCss{
+    width: 500px;
+    height: 500px;
+    animation: orbite 25s linear infinite;
+    z-index: 9;
+    border-width:0.1em 0.1em 0  !important;
+}
+
+
+
+.JS>div{
+    margin-left: 90%;
+    animation: NOorbite 16s linear infinite;
+}
+.react>div{
+    margin-left: 90%;
+    margin-top:12% !important;
+    margin-left:83% !important;
+    animation: NOorbite 40s linear infinite;
+}
+.vue>div{
+    margin-left: 90%;
+    margin-top:12% !important;
+    margin-left:83% !important;
+    animation: NOorbite 40s linear infinite;
+    rotate: 120deg;
+}
+.angular>div{
+    margin-left: 90%;
+    margin-top:12% !important;
+    margin-left:83% !important;
+    animation: NOorbite 40s linear infinite;
+    rotate: -120deg;
+}
+.Html5>div{
+    margin-left: 90%;
+    animation: NOorbite 10s linear infinite;
+}
+.Css3>div{
+    margin-left: 90%;
+    animation: NOorbite 13s linear infinite;
+}
+.Github>div{
+    margin-left: 90%;
+    margin-top:12% !important;
+    margin-left:83% !important;
+    animation: NOorbite 25s linear infinite;
+    rotate: 120deg;
+}
+.Bootstrap>div{
+    margin-left: 90%;
+    margin-top:12% !important;
+    margin-left:83% !important;
+    animation: NOorbite 25s linear infinite;
+    rotate: -120deg;
+}
+.TailwindCss>div{
+    margin-left: 90%;
+    margin-top:12% !important;
+    margin-left:83% !important;
+    animation: NOorbite 25s linear infinite;
+}
+.textSunContaner{
+    margin: 0px !important; 
+}
+.Web{
+    border: none !important;
+}
+@keyframes orbite {
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes NOorbite {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+@media screen and (max-width:1000px) {
+.textSunContaner {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 1rem;
+}
+.OrbitOrgDiv>div>div{
+    width: 33px;
+    height: 33px;
+}
+.OrbitOrgDiv>div>div>div>svg{
+    width: 20px;
+    height: 20px;
+}
+.JS{
+    width: 300px;
+    height: 300px;
+
+}
+.react{
+    width: 450px;
+    height: 450px;
+}
+.vue{
+    width: 450px;
+    height: 450px;
+}
+.angular{
+    width: 450px;
+    height: 450px;
+}
+.Html5{
+    width: 120px;
+    height: 120px;
+}
+.Css3{
+    width: 200px;
+    height: 200px;
+}
+.Github{
+    width: 375px;
+    height: 375px;
+}
+.Bootstrap{
+    width: 375px;
+    height: 375px;
+}
+.TailwindCss{
+    width: 375px;
+    height: 375px;
+}
+}
+@media screen and (max-width:640px) {
+    .textSunContaner {
+        width: 40px !important;
+        height: 40px !important;
+        font-size: 0.9rem;
+    }
+    .OrbitOrgDiv>div>div{
+        width: 25px;
+        height: 25px;
+    }
+    .OrbitOrgDiv>div>div>div>svg{
+        width: 15px;
+        height: 15px;
+    }
+    .JS{
+        width: 190px;
+        height: 190px;
+    }
+    .react{
+        width: 320px;
+        height: 320px;
+    }
+    .vue{
+        width: 320px;
+        height: 320px;
+    }
+    .angular{
+        width: 320px;
+        height: 320px;
+    }
+    .Html5{
+        width: 70px;
+        height: 70px;
+    }
+    .Css3{
+        width: 130px;
+        height: 130px;
+    }
+    .Github{
+        width: 260px;
+        height: 260px;
+    }
+    .Bootstrap{
+        width: 260px;
+        height: 260px;
+    }
+    .TailwindCss{
+        width: 260px;
+        height: 260px;
+    }
+}
+@media screen and (max-width:470px) {
+    .textSunContaner {
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 0.8rem;
+    }
+    .OrbitOrgDiv>div>div{
+        width: 22px;
+        height: 22px;
+    }
+    .OrbitOrgDiv>div>div>div>svg{
+        width: 15px;
+        height: 15px;
+    }
+    .JS{
+        width: 140px;
+        height: 140px;
+    }
+    .react{
+        width: 225px;
+        height: 225px;
+    }
+    .vue{
+        width: 225px;
+        height: 225px;
+    }
+    .angular{
+        width: 225px;
+        height: 225px;
+    }
+    .Html5{
+        width: 55px;
+        height: 55px;
+    }
+    .Css3{
+        width: 100px;
+        height: 100px;
+    }
+    .Github{
+        width: 180px;
+        height: 180px;
+    }
+    .Bootstrap{
+        width: 180px;
+        height: 180px;
+    }
+    .TailwindCss{
+        width: 180px;
+        height: 180px;
+    }
+    }

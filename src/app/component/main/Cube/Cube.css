@@ -34,3 +34,43 @@
         transform: rotateX(60deg) rotateY(360deg) rotateZ(360deg);
     }
 }
+@media screen and (max-width:1300px) {
+    .cube {
+        width: 150px;
+        height:150px;
+    }
+    
+    .face {
+        width: 150px;
+        height: 150px;
+    }
+    .front  { transform: rotateY(   0deg) translateZ(75px); }
+    .back   { transform: rotateY( 180deg) translateZ(75px); }
+    .left   { transform: rotateY( -90deg) translateZ(75px); }
+    .right  { transform: rotateY(  90deg) translateZ(75px); }
+    .top    { transform: rotateX(  90deg) translateZ(75px); }
+    .bottom { transform: rotateX( -90deg) translateZ(75px); }
+    
+}
+@media screen and (max-width:415px) {
+    .cube {
+        width: 100px;
+        height: 100px;
+    }
+    .face {
+        width: 100px;
+        height: 100px;
+    }
+    .face>svg{
+        width: 60px !important;
+        height: 60px !important;
+    }
+    .front  { transform: rotateY(   0deg) translateZ(50px); }
+    .back   { transform: rotateY( 180deg) translateZ(50px); }
+    .left   { transform: rotateY( -90deg) translateZ(50px); }
+    .right  { transform: rotateY(  90deg) translateZ(50px); }
+    .top    { transform: rotateX(  90deg) translateZ(50px); }
+    .bottom { transform: rotateX( -90deg) translateZ(50px); }
+    
+}
+

@@ -28,8 +28,7 @@
     font-size: 1.1rem;
     box-shadow: 0 2px 10px black;
     margin: 50px 0;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 .theWayGraph>div:hover{
     transition: all 0.5s;
@@ -84,34 +83,34 @@
 }
 #GitGraph{
     position: absolute;
-    top: 370px;
-    left: 450px;
+    margin-top: -320px;
+    margin-left: -160px;
 }
 #GitHubGraph{
     position: absolute;
-    top: 370px;
-    right: 450px;
+    margin-top: -320px;
+    margin-left: 160px;
 }
 #NextJSGraph{
     position: absolute;
-    top: 645px;
-    right: 440px;
+    margin-top: -40px;
+    margin-left: 170px;
 }
 #JqueryGraph{
     position: absolute;
-    top: 645px;
-    left: 440px;
+    margin-top: -40px;
+    margin-left: -170px;
 
 }
 #BootstrapGraph{
     position: absolute;
-    top: 520px;
-    left: 220px;
+    margin-top: -160px;
+    margin-left: -370px;
 }
 #TailwindGraph{
     position: absolute;
-    top: 520px;
-    right: 220px;
+    margin-top: -160px;
+    margin-left: 370px;
 }
 .LineConnect{
     width: 7px;
@@ -121,62 +120,62 @@
     z-index: -2;
 }
 #OrgLineHtmlCss{
-    top:300px;
+    margin-top:5px;
 }
 #OrgLineCssJS{
-    top:450px;
+    margin-top:300px;
 }
 #OrgLineJSReact{
     height: 200px;
-    top: 650px;
-    left: 43em;
+    margin-top: 690px;
+    margin-left: 5.3em;
     rotate: -30deg;
 }
 #OrgLineJSVue{
     height: 200px;
-    top: 650px;
-    right: 43em;
+    margin-top: 690px;
+    margin-right: 5.3em;
     rotate: 30deg;
 }
 #OrgLineJSAngular{
     height: 200px;
-    top: 650px;
+    margin-top: 690px;
 }
 #OrgLineJSNextJs{
     position: absolute;
     height: 230px;
     top: 600px;
     rotate: -70deg;
-    right: 550px;
+    margin-right: -195px;
 }
 #OrgLineJSjQuery{
     position: absolute;
     height: 230px;
     top: 600px;
     rotate: 70deg;
-    left: 550px
+    margin-left: -195px;
 }
 #OrgLineHtmlGit{
     position: absolute;
     height: 200px;
     rotate: 45deg;
-    top: 300px;
-    left: 550px;
+    margin-top: 0px;
+    margin-right: 200px;
     background-color: rgb(173, 134, 255);
 }
 #OrgLineGitGitHub{
     position: absolute;
     height: 200px;
     rotate: -45deg;
-    top: 300px;
-    right: 550px;
+    margin-top: 0px;
+    margin-left: 200px;
     background-color: rgb(173, 134, 255);
 }
 #OrgLineCssBootstrap{
     position: absolute;
     top: 375px;
     rotate: 77deg;
-    left: 460px;
+    margin-left: -370px;
     height: 400px;
     background-color: rgb(173, 134, 255);
 
@@ -185,7 +184,7 @@
     position: absolute;
     top: 375px;
     rotate: -77deg;
-    right: 460px;
+    margin-right: -370px;
     height: 400px;
     background-color: rgb(173, 134, 255);
 
@@ -253,9 +252,11 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.641);
     backdrop-filter: blur(10px);
-    margin-top: 425px;
     border-radius: 15px;
     display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .divMapOrgTextMain{
     font-weight: bold;
@@ -283,37 +284,22 @@
 }
 .ChildeDivInfWay {
     width: 1200px;
-    height: 500px;
+    height: min-content;
     background-color: rgba(255, 255, 255, 0.516);
     padding: 30px;
+    padding-bottom: 150px;
     position: relative;
     border-radius: 20px;
   }
   
   .startForBigining {
     width: 100%;
-    height: 300px;
+    height: 220px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .circleDivInformation{
     width: 100px;
     height: 100px;
@@ -352,6 +338,7 @@
     margin-top: 0px;
     margin-left: -80px;
     z-index: 1;
+    margin: auto;
   }
 
 .circleDivInformationEnd{
@@ -435,6 +422,344 @@
 .learnTheStartLan:hover{
     box-shadow: 0 0px 30px rgba(94, 62, 255, 0.605);
     transition: all 0.5s;
-    
+}
+@media screen and (max-width:1350px) {
+    .theWayProgramer{
+        width: 80%;
+        padding: 80px;
+        padding-bottom: 250px;
+    }
+    .titleWay{
+        font-size: 1.5rem;
+    }
+    .paragrafWay{
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+    .childMapMain{
+        font-size: 0.9rem;
+    }
+    .childMapSub{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:1070px) {
+        
+    .theWayProgramer{
+        width: 650px;
+        padding: 50px;
+        padding-bottom: 250px;
+    }
+    .LineConnect{
+        width: 5px;
+        height: 150px;
+    }
+    .theWayGraph>div {
+        width: 80px;
+        height: 80px;
+        font-size: 0.9rem;
+    }
+    #ReactGraph{
+        font-size: 0.9rem;
+    }
+    #AngularGraph{
+        font-size: 0.9rem;
+    }
+    #VueGraph{
+        font-size: 0.9rem;
+    }
+    #OrgLineCssTailwind {
+        margin-top: 70px;
+        margin-right: -150px;
+        height: 200px;
+    }
+    #OrgLineHtmlCss {
+        margin-top: 70px;
+    }
+    #OrgLineCssBootstrap {
+            margin-top: 70px;
+            margin-left: -150px;
+            height: 200px;
+    }
+    #OrgLineHtmlGit {
+        height: 150px;
+        rotate: 72deg;
+        margin-top: 70px;
+        margin-right: 100px;
+    }
+    #OrgLineGitGitHub {
+        height: 150px;
+        rotate: -72deg;
+        margin-top: 70px;
+        margin-right: 100px;
+    }
+    #OrgLineJSjQuery {
+        height: 150px;
+        margin-top: 0px;
+        rotate: 70deg;
+        margin-right: -50px;
+    }
+    #OrgLineJSNextJs {
+ 
+        height: 150px;
+        margin-top: 0px;
+        rotate: -70deg;
+        margin-left: -50px;
+    }
+    #GitHubGraph {
+        margin-top: -300px;
+        margin-right: 302px;
+    } 
+    #GitGraph {
+        margin-top: -300px;
+        margin-right: -302px;
+    }   
+    #NextJSGraph {
+        margin-top: -35px;
+        margin-right: 290px;
+    } 
+    #JqueryGraph {
+        margin-top: -35px;
+        margin-right: -290px;
+    } 
+    #TailwindGraph {
+        margin-top: -170px;
+        margin-left: 200px;
+    }
+    #BootstrapGraph{
+        margin-top: -170px;
+        margin-left: -200px;
+    }
+    #OrgLineJSReact {
+            height: 200px;
+            margin-top: 730px;
+            margin-left: 7.4em;
+            rotate: -30deg;
+    }
+    #OrgLineJSVue {
+        height: 200px;
+        margin-top: 730px;
+        margin-right: 7.4em;
+        rotate: 30deg;
+    }
+}
+@media screen and (max-width:780px) {
+
+    .theWayProgramer{
+        width: 400px;
+        padding: 20px 40px;
+        padding-bottom: 150px;
+    }
+    .theWayGraph>div {
+        width: 60px;
+        height: 60px;
+        font-size: 0.7rem;
+    }
+    .titleWay{
+        font-size: 1.2rem;
+    }
+    .paragrafWay{
+        font-weight: 100;
+        font-size: 0.8rem;
+    }
+    .InformationMap{
+        width: 75px;
+        height: 40px;
+        top: 190px;
+        left: 50px;
+    }
+    .childMapMain{
+        font-size: 0.7rem;
+    }
+    .childMapSub{
+        font-size: 0.7rem;
+    }
+    .childMapMain>div{
+        width: 10px;
+        height: 10px;
+    }
+    .childMapSub>div{
+        width: 10px;
+        height: 10px;
+    }
+    .LineConnect{
+        width: 4px;
+    }
+    #OrgLineHtmlCss{
+        height: 90px;
+    }
+    #OrgLineCssJS{
+        height: 90px;
+    }
+    #OrgLineJSReact{
+        height: 90px;
+        margin-top: 490px;
+        margin-left: 4em;
+    }
+    #OrgLineJSVue{
+        height: 90px;
+        margin-top: 490px;
+        margin-right: 4em;
+    }
+    #OrgLineJSAngular{
+        height: 90px;
+        margin-top: 510px;
+    }
+    #OrgLineJSNextJs{
+        height: 90px;
+        margin-top: -150px;
+        margin-left: -90px;
+    }
+    #OrgLineJSjQuery{
+        height: 90px;
+        margin-top: -150px;
+        margin-right: -90px;
+    }
+    #OrgLineHtmlGit{
+        height: 90px;
+        margin-top: 11px;
+        margin-right: 90px;
+    }
+    #OrgLineGitGitHub{
+        height: 90px;
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+    #OrgLineCssBootstrap{
+        height: 90px;
+    }
+    #OrgLineCssTailwind{
+        height: 90px;
+    }
+    #GitHubGraph {
+        margin-top: -270px;
+        margin-left: 100px;
+    }
+    #GitGraph{
+        margin-top: -270px;
+        margin-left: -100px;
+    }
+    #OrgLineCssTailwind {
+        margin-top: -25px;
+        margin-left: -60px;
+    }
+    #OrgLineCssBootstrap{
+        margin-top: -25px;
+        margin-right: -60px;
+    }
+    #AngularGraph {
+        margin-top: 30px;
+    }
+    #ReactGraph {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    #VueGraph{
+        margin-left: -70px;
+        margin-top: 10px;
+    }
+    #NextJSGraph{
+        margin-top: -55px;
+        margin-left: 110px;
+    } 
+    #JqueryGraph{
+        margin-top: -55px;
+        margin-left: -110px;
+    }
+    #TailwindGraph{
+        margin-top: -170px;
+        margin-left: 110px;
+    }
+    #BootstrapGraph{
+        margin-top: -170px;
+        margin-left: -110px;
+    }
+    .circleDivInformation {
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        font-size: 0.9rem;
+    }
+    .divMapOrgTitleMain{
+        font-size: 1.5rem;
+    }
+    .divMapOrgTextMain{
+        font-size: 0.9rem;
+    }
+    .divConnector2 {
+        margin-top: 10px;
+    }
+    #circleDivInformationhtmlID {
+        margin-top: -65px;
+    }
+}
+@media screen and (max-width:505px) {
+    .theWayProgramer{
+        width: 220px;
+        padding: 20px 40px;
+        padding-bottom: 150px;
+    }
+    .theWayGraph>div {
+        width: 50px;
+        height: 50px;
+        font-size: 0.6rem;
+    }
+    .titleWay{
+        font-size: 0.8rem;
+    }
+    .paragrafWay{
+        font-weight: 100;
+        font-size: 0.6rem;
+        line-height: 20px;
+    }
+    .InformationMap{
+        width: 55px;
+        height: 20px;
+        top: 210px;
+        left: 20px;
+    }
+    .childMapMain{
+        font-size: 0.55rem;
+    }
+    .childMapSub{
+        font-size: 0.55rem;
+        margin-top: 0px;
+    }
+    #AngularGraph {
+        font-size: 0.7rem;
+    }
+    #ReactGraph {
+        font-size: 0.7rem;
+    }
+    #VueGraph{
+        font-size: 0.7rem;
+    }
+    .circleDivInformation {
+        width: 45px;
+        height: 45px;
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+    .divMapOrgTitleMain{
+        font-size: 1.3rem;
+    }
+    .divMapOrgTextMain{
+        font-size: 0.7rem;
+    }
+    .divConnector2 {
+        margin-top: 10px;
+    }
+    #circleDivInformationhtmlID {
+        margin-top: -40px;
+    }
+    .learnTheStartLan {
+        width: 150px;
+        height: 50px;
+        font-size: 0.7rem;
+    }
+    .divMapOrgTextMain{
+        text-align: justify;
+        justify-content: auto;
+    }
 }
 
