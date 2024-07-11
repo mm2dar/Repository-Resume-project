@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: center;
 }
+.textSunContaner{
+    font-family: lemon;
+}
 .OrbitOrgDiv>div>div{
     display: flex;
     flex-direction: row;

@@ -2,6 +2,17 @@
   font-family:vazir;
   src: url(./app/PackSrc/font/Vazir.ttf);
 }
+@font-face {
+  font-family:lemon;
+  src: url(./app/PackSrc/font/Lemon\ Shake\ Shake.woff);
+}
+@font-face {
+  font-family:Kleader;
+  src: url(./app/PackSrc/font/Kleader.woff);
+}
+h1 , h2 ,h3 ,h4 {
+  font-family: lemon !important;
+}
 :root{
   --color:#ffffff;
   --colorN:#222222;

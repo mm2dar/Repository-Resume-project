@@ -14,7 +14,9 @@
     top: 510px;
     background-color: #5555554b;
 }
-
+.header1TitleCartSearch{
+    font-family: lemon;
+}
 .searcher{
     width: 40%;
     text-align: center;

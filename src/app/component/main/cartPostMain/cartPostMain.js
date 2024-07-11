@@ -18,9 +18,9 @@ export default function CartPostMain(props) {
             <h1 className='titleHeaderCart'>
                       {props.titleCart}
             </h1>
-            <h3 className='paragrafHeaderCart'>
+            <p className='paragrafHeaderCart'>
                       {props.paragrafHeader}
-            </h3>
+            </p>
             <p className='textParagrafCart'>
                       {props.paragraf}     
             </p>
