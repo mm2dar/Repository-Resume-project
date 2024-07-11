@@ -178,7 +178,7 @@
         transform: rotate(-360deg);
     }
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1400px) {
 .textSunContaner {
     width: 50px !important;
     height: 50px !important;

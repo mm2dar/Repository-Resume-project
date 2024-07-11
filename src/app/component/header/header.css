@@ -21,13 +21,20 @@
     position: relative;
     border-radius: 50%;
 }
+.IconRegisterHeaderBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    padding-right: 3px;
+}
 .ballsChilds1{
     width: 500px;
     height: 500px;
     background-color: rgb(208, 0, 255);
     box-shadow: 0 0 50px rgb(208, 0, 255);
-    top: 300px;
-    left: 1300px;
+    margin-top: 300px;
+    margin-left: 1300px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -38,8 +45,8 @@
     height: 350px;
     background-color: rgb(208, 0, 255);
     box-shadow: 0 0 30px rgb(208, 0, 255);
-    top: 850px;
-    left: 250px;
+    margin-top: 850px;
+    margin-left: 250px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,8 +57,8 @@
     height: 400px;
     background-color: rgb(218, 52, 255);
     box-shadow: 0 0 50px rgb(218, 52, 255);
-    top: 1900px;
-    left: 1500px;
+    margin-top: 1900px;
+    margin-left: 1500px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,7 +72,7 @@
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(5px);
-    background-color: #ffffff3d;
+    background-color: #0000003d;
     transition: all 0.5s;
     z-index: 999;
 }
@@ -118,7 +125,7 @@
     background-color:rgb(115, 87, 255);
     transition: all 0.5s;
 }
-.IconLoginHeaderBar , .IconRegisterHeaderBarHamber{
+.IconLoginHeaderBar  .IconRegisterHeaderBarHamber{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,7 +208,42 @@
     animation: scroolCircle linear infinite 5s;
     animation-delay: 1s;
 }
-
+.ballsChilds1Childe4{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 1.5s;
+}
+.ballsChilds1Childe5{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 2s;
+}
+.ballsChilds1Childe6{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 2.5s;
+}
+.ballsChilds1Childe7{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 3s;
+}
+.ballsChilds1Childe8{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 3.5s;
+}
+.ballsChilds1Childe9{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 4s;
+}
+.ballsChilds1Childe10{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 4.5s;
+}
+.ballsChilds1Childe11{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 5s;
+}
+.ballsChilds1Childe12{
+    animation: scroolCircle linear infinite 5s;
+    animation-delay: 5.5s;
+}
 
 @keyframes scroolCircle {
     0%{
@@ -227,6 +269,7 @@
         font-weight: bold;
         font-size:1rem;
     }
+
 }
 @media (min-width:980px) and (max-width:1200px) {
     .chilede2Headerdiv1{

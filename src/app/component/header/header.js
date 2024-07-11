@@ -62,9 +62,6 @@ export default function header() {
         <div className="ballsChilds2">
             <CircleAround></CircleAround>
         </div>
-        <div className="ballsChilds3">
-            <CircleAround></CircleAround>
-        </div>
     </div> */}
 </>
   )

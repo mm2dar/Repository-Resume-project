@@ -13,6 +13,9 @@ export default function circleAround() {
           <div className='ballsChilds1Childe ballsChilds1Childe8'></div>
           <div className='ballsChilds1Childe ballsChilds1Childe9'></div>
           <div className='ballsChilds1Childe ballsChilds1Childe10'></div>
+          <div className='ballsChilds1Childe ballsChilds1Childe11'></div>
+          <div className='ballsChilds1Childe ballsChilds1Childe12'></div>
+
     </>
   )
 }

@@ -1,6 +1,5 @@
 .divSearchOrgParent{
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     display:flex;
@@ -12,7 +11,7 @@
     width: 1300px;
     height: 42em;
     padding: 50px;
-    margin-top: 80px;
+    top: 510px;
     background-color: #5555554b;
 }
 
@@ -101,30 +100,41 @@
 }
 @media screen and (max-width:1430px) {
     .divSearchOrgParent{
-        flex-direction: column-reverse;
         width: 80%;
         height: min-content;
-        margin-top: 400px;
+        top: 440px;
+        padding:70px 20px ;
     }
     .contaner{
-        margin-top:150px !important;
         margin: auto;
+        height: 400px;
     }
     .searcher{
-        margin-top:200px !important;
+        height: 300px;
     }
 }
 @media screen and (max-width:1000px) {
     .divSearchOrgParent{
-        margin-top: 300px !important;
+        top: 600px;
+        flex-direction:column-reverse;
+    }
+    .contaner{
+        margin-top:150px !important;
+        margin: auto;
+        height: 200px;
+    }
+    .searcher{
+        margin-top:200px !important;
+        height: 300px;
     }
 }
 @media screen and (max-width:840px) {
     .divSearchOrgParent{
-        flex-direction: column-reverse;
+        flex-direction:column-reverse;
         width: 63%;
         height: min-content;
-        margin-top: 75px !important;
+        top: 550px;
+
     }
     .contaner{
         width: 100%;
@@ -159,10 +169,10 @@
 }
 @media screen and (max-width:640px) {
     .divSearchOrgParent{
-        margin-top: 120px !important;
+        top: 500px;
     }
     .contaner{
-        height: 300px;
+        height: 250px;
     }
 }
 
