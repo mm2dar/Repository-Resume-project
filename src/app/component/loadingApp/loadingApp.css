@@ -25,7 +25,12 @@
     height: 10%;
 
 }
-
+.compeletedLoadingAndGoingToWeb{
+    font-family: lemon;
+    font-size: 2rem;
+    display: none;
+    color:rgb(140, 0, 255);
+}
 .divLoadingCss1{
     animation: animationdivLoading  2s infinite;
     animation-delay: 0.5s;
@@ -77,5 +82,10 @@
     100%{
         height:10%;
 
+    }
+}
+@media screen and (max-width:500px) {
+    .compeletedLoadingAndGoingToWeb{
+        font-size: 1.2rem;
     }
 }

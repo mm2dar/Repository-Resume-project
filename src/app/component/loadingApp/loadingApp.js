@@ -5,8 +5,15 @@ export default function LoadingApp() {
     const [first, setfirst] = useState('true')
     useEffect(()=>{
         setTimeout(()=>{
-            setfirst('false')
+            if (document.querySelector('.compeletedLoadingAndGoingToWeb')) {
+                document.querySelector('.compeletedLoadingAndGoingToWeb').style.display='flex'
+                document.querySelector('.animationloadingEffect').style.display='none'
+            }
         }, 5000)
+        setTimeout(()=>{
+
+            setfirst('false')
+        }, 7000)
     },[first])
     return (
 
@@ -25,6 +32,9 @@ export default function LoadingApp() {
                         <div className="divLoading divLoadingCss8"></div>
                         <div className="divLoading divLoadingCss9"></div>
                         <div className="divLoading divLoadingCss10"></div>
+                    </div>
+                    <div className='compeletedLoadingAndGoingToWeb'>
+                        The website is ready
                     </div>
                 </div>
             </>
