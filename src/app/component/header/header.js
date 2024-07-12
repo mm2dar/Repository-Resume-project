@@ -54,7 +54,7 @@ export default function header() {
               </div>
           </div>
     </header>
-    {/* <div className='balls'>
+    <div className='balls'>
         <div className="ballsChilds1">
             <CircleAround></CircleAround>
         </div>
@@ -62,7 +62,7 @@ export default function header() {
         <div className="ballsChilds2">
             <CircleAround></CircleAround>
         </div>
-    </div> */}
+    </div>
 </>
   )
 }
